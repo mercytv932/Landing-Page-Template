@@ -1,3 +1,48 @@
 body {
-  background-color: royalblue;
+  background-color: aliceblue;
 }
+
+header {
+  background-color: rgb(44, 184, 44);
+}
+
+footer {
+  background-color: rgba(5, 18, 34, 0.589);
+}
+
+main {
+  background-color: antiquewhite;
+}
+
+h1, h2 {
+  color: red;
+  text-decoration: underline;
+}
+
+/* 
+# 1. Make sure you're on main and up to date
+git checkout main
+git pull origin main
+
+# 2. Create a new feature branch
+git checkout -b feat/new-css-code
+
+# 3. Edit your code
+
+# 4. Stage changes
+git add .
+
+# 5. Commit changes
+git commit -m "feat: add new CSS styling"
+
+# 6. Push branch to GitHub
+git push origin feat/new-css-code
+
+# 7. Go to GitHub
+# Click "Compare & pull request"
+# Create the Pull Request
+
+# 8. After PR is merged
+git checkout main
+git pull origin main
+*/
